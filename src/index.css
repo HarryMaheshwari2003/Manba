@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  
+::-webkit-scrollbar {
+  width: 0px; 
+  height: 0px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;  
+}
+
+  .imgDiv{
+    background-image: url('src/assets/HomeAbout.png') ;
+    background-size: contain;
+    height: auto;
+    width: 100vw;
+  }
+
+  .main-cashLoan-img {
+    background-image: url('src/assets/cashloanimg.png');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100vw;
+  }
+
+  .imgOfBanner {
+    background-image: url('src/assets/servicebanner.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100vw;
+  }
+
+  .banner-img {
+    background-image: url('src/assets/aboutBanner.png');
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100vw;
+  }
+  
+
+  /* //custom cursor */
+
+  /* src/assets/aboutBanner.png */
+  
